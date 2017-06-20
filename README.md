@@ -15,7 +15,7 @@
 
 ## 项目演示
 
-[点我演示](./desc/商品页.gif)  
+[点我演示](https://loveleslie.github.io/H5_WebApp/)  
 
 ## 组件介绍
 
