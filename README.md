@@ -1,6 +1,6 @@
 # Web App
 
-> 运用HTML5、CSS3、JS，采用组件式开发模式，开发Web App。
+> 运用Canvas、CSS3、JS、jQuery，采用组件式开发模式，开发Web App。
 
 欢迎`issue`，`pr`，`star` or `follow`！
 
