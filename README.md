@@ -15,7 +15,10 @@
 
 ## 项目演示
 
-[点我演示](https://loveleslie.github.io/H5_WebApp/)  
+[项目演示地址](https://loveleslie.github.io/H5_WebApp/)  
+
+![点我演示](https://qr.api.cli.im/qr?data=https%253A%252F%252Floveleslie.github.io%252FH5_WebApp%252F&level=H&transparent=false&bgcolor=%23ffffff&forecolor=%23000000&blockpixel=12&marginblock=1&logourl=&size=280&kid=cliim&key=3fa1cb6e23ff26ec3eb16adc8aa04eba)  
+
 
 ## 组件介绍
 
