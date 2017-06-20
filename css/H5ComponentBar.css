@@ -1,0 +1,65 @@
+/*柱图文组件样式*/
+
+.h5_component_bar .line {
+    height: 20px;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 15px;
+}
+
+.h5_component_bar .name {
+    float: left;
+    width: 60px;
+    text-align: center;
+    color: #000;
+}
+
+.h5_component_bar .rate {
+    float: left;
+    position: relative;
+    margin-left: 5px;
+    height: 15px;
+}
+
+.h5_component_bar .rate .bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 3px;
+    background-color: #99c0ff;
+}
+
+.h5_component_bar .per {
+    float: left;
+    width: 20px;
+    margin-left: 5px;
+    opacity: 0;
+}
+
+.h5_component_bar_load .rate .bg {
+    -webkit-transition: all 1s .5s;
+    -moz-transition: all 1s .5s;
+    -ms-transition: all 1s .5s;
+    -o-transition: all 1s .5s;
+    transition: all 1s .5s;
+    width: 100%;
+}
+
+.h5_component_bar_leave .rate .bg {
+    width: 0;
+}
+
+.h5_component_bar_load .per {
+    -webkit-transition: all 1s 1.5s;
+    -moz-transition: all 1s 1.5s;
+    -ms-transition: all 1s 1.5s;
+    -o-transition: all 1s 1.5s;
+    transition: all 1s 1.5s;
+    opacity: 1;
+}
+
+.h5_component_bar_leave .per {
+    opacity: 0;
+}

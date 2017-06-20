@@ -1,0 +1,41 @@
+/* 环图组件样式 */
+
+.h5_component_ring canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.h5_component_ring .mask {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 90;
+    border-radius: 50%;
+    background-color: #fff;
+    -webkit-transform: scale(.8);
+}
+
+.h5_component_ring .name{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 60px;
+    height: 30px;
+    margin-left: -30px;
+    margin-top: -15px;
+    text-align: center;
+    opacity: 0;
+}
+
+.h5_component_ring_load .name {
+    opacity: 1;
+}
+
+.h5_component_ring_leave .name {
+    opacity: 0;
+}
